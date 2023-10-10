@@ -1,0 +1,116 @@
+.Assistant {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.Assistant .Assistant_header {
+  text-align: center;
+}
+.Assistant .Assistant_header h1 {
+  font-size: 45px;
+  margin-bottom: 1rem;
+  background-clip: text;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background: linear-gradient(90deg, rgb(0, 89, 255), rgb(255, 72, 0), rgb(82, 81, 80));
+  font-weight: 900;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+  text-align: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-weight: 900;
+}
+.Assistant p {
+  color: aliceblue;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.Assistant P::first-letter {
+  text-transform: uppercase;
+}
+.Assistant button {
+  height: 2.5rem;
+  padding: 0 1rem;
+  color: aliceblue;
+  background: transparent;
+  border-radius: 7px;
+  border: 3px solid grey;
+  text-transform: uppercase;
+}
+
+.chat {
+  display: inherit;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.chat_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  border: 1px solid blanchedalmond;
+  border-radius: 12px;
+  width: 80%;
+  height: auto;
+  padding: 1rem 0.5rem;
+}
+.chat_center .chat_content {
+  display: flex;
+  justify-content: start;
+  border-radius: 10px;
+  padding: 0.5rem;
+  align-items: start;
+  gap: 0.6rem;
+  height: auto;
+  width: 70%;
+  border: 2px solid rgb(0, 140, 255);
+}
+.chat_center .chat_content p {
+  font-size: 15px;
+  color: rgb(167, 160, 160);
+  font-weight: 300;
+  font-family: cursive;
+}
+.chat_center .chat_content img {
+  height: 30px;
+  border-radius: 50%;
+}
+
+.input {
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.input #textarea {
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 12px;
+  padding: 0.5rem;
+  font-weight: 600;
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  width: 88%;
+  outline: none;
+  background: rgb(220, 240, 250);
+  overflow-x: auto;
+}
+.input img {
+  height: 30px;
+}
+
+.chat_header {
+  color: lightgray;
+  text-transform: capitalize;
+  text-decoration: underline;
+}/*# sourceMappingURL=community.css.map */

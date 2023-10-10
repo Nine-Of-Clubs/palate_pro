@@ -1,0 +1,136 @@
+.Create_post{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border: 2px solid rgb(0, 140, 255);
+    background: rgb(0, 140, 255,.5);
+    align-items: start;
+    gap: .5rem;
+    cursor: pointer;
+    border-radius: 9px;
+    padding: 1rem;
+
+    .create{
+        font-family: cursive;
+        text-transform: capitalize;
+        margin: 0 auto;
+        text-decoration: underline;
+        font-size: 23px;
+    }
+
+    label{
+        color: aliceblue;
+        text-transform: capitalize;
+    }
+
+    button{
+        height: 2.5rem;
+        width: 10rem;
+        border: none;
+        margin: 0 auto;
+        color: aliceblue;
+        cursor: pointer;
+        text-transform: uppercase;
+        border-radius: 30px;
+        background: rgb(8, 101, 221);
+    }
+}
+.file{
+    height: auto;
+   
+    width: 20rem;
+   
+}
+input[type="file"]{
+    color: aliceblue;
+    cursor: pointer;
+}
+input[type="text"]{
+    height: 2.5rem;
+    width: 90%;
+    background: rgb(13, 135, 241,.2);
+    outline: none;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+
+}
+textarea
+{
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 12px;
+    padding: .5rem;
+    width: 80%;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.upload{
+    width: 20rem;
+    border-radius: 12px;
+}
+.post_preview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    overflow: hidden;
+    height: auto;
+    width: 20rem;
+   
+    border: 2px solid rgb(0, 110, 255);
+    border-radius: 15px;
+
+    .user_id{
+        display: flex;
+        background: rgb(3, 148, 245,.3);
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+       
+        
+        width: 100%;
+        
+        text-align: center;
+      
+
+        img{
+            height: 40px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+    }
+}
+
+.recipe_title{
+    color: aliceblue;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.recipe{
+    text-align: start;
+   
+   
+}
+pre{
+    color: aliceblue;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    text-align: start;
+}

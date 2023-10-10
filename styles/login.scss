@@ -1,0 +1,64 @@
+.Login_card{
+    margin-top: 26rem;
+    width: 100%;
+    height: 19rem;
+   
+    display: flex;
+    justify-content: center;
+  
+
+  
+
+    button{
+        height: 2.5rem;
+        width: 14rem;
+        margin: 0 auto;
+        border-radius: 5px;
+        background: rgb(13, 123, 219);
+        border: 3px solid #0546fa;
+        text-transform: uppercase;
+        color: aliceblue;
+        cursor: pointer;
+    }
+  
+   
+}
+
+.Menu_logo{
+    width: 100%;
+    box-shadow: 0 0 35px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: fixed;
+
+    .user_menu{
+        height:auto;
+        width: 100%;
+        background: rgb(165, 209, 248,.1);
+        display: flex;
+        justify-content: end;
+     padding: 1rem 2rem;
+        align-items: center;
+      
+
+        .User_status{
+            text-decoration: none;
+            height: 2.5rem;
+            width: auto;
+            padding:  1rem 1rem;
+            text-transform: capitalize;
+            color: aliceblue;
+            background: rgb(0, 0, 0);
+            border-radius: 12px;
+        }
+    }
+
+
+}
+.User_profile{
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 1rem;
+}

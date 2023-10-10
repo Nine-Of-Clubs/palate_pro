@@ -1,0 +1,124 @@
+.container {
+  margin-top: 8rem;
+}
+.container .p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.container_header {
+  text-align: center;
+  font-size: 45px;
+  padding: 0 17rem;
+  color: aliceblue;
+  margin-bottom: 1rem;
+}
+
+.SearchField {
+  border: 1px solid grey;
+  height: 3rem;
+  margin: 0 auto;
+  background: #02102c;
+  border-radius: 10px;
+  box-shadow: 26.13px 26.13px 49px #010816, -26.13px -26.13px 49px #031842;
+  width: 65%;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.SearchField span {
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  width: 2.5rem;
+  border-radius: 50%;
+  background: rgb(9, 61, 139);
+  box-shadow: 0 0 35px grey;
+}
+.SearchField input {
+  border: transparent;
+  background: transparent;
+}
+.SearchField img {
+  height: 2rem;
+  cursor: pointer;
+}
+
+.Assistant_Overview {
+  margin-top: 2rem;
+  display: flex;
+  padding: 0 6rem;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+.Assistant_Overview h1 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.Assistant_Overview h1 P:nth-child(1) {
+  color: rgb(5, 250, 5);
+  font-size: 22px;
+}
+.Assistant_Overview h1 P:nth-child(2) {
+  color: rgb(255, 153, 0);
+  font-size: 22px;
+}
+.Assistant_Overview .content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.Assistant_Overview .content .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.Assistant_Overview .content button {
+  height: 2.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 12rem;
+  border: 2px solid #1b1d1d;
+  color: rgb(248, 242, 240);
+  background: lightslategrey;
+  font-weight: 600;
+  padding: 0 1rem;
+}
+.Assistant_Overview img {
+  height: 400px;
+  border-radius: 10px;
+}
+
+.footer {
+  height: 6rem;
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  background: rgb(0, 162, 255);
+  margin-top: 1.4rem;
+  padding: 0.7rem;
+  box-shadow: 0 0 5pc rgb(255, 115, 0);
+  text-align: center;
+}
+.footer p a {
+  text-decoration: none;
+  color: rgb(2, 24, 43);
+}
+
+@media screen and (max-width: 1025px) {
+  .Assistant_Overview {
+    flex-wrap: wrap;
+  }
+  .Assistant_Overview img {
+    order: -1;
+  }
+}/*# sourceMappingURL=food.css.map */

@@ -1,0 +1,116 @@
+ <Profile_card index={0}  role={0}/>
+       <Profile_card index={1} role={1}/>
+       <Profile_card index={2} role={2}/>
+       <Profile_card index={3} role={3}/>
+       <Profile_card index={4} role={4}/>
+       <Profile_card index={5} role={5}/>
+       <Profile_card index={6} role={2}/>
+       <Profile_card index={7} role={4}/>
+       <Profile_card index={8} role={3}/>
+
+
+
+
+       // const Profile_card =(props) =>{
+
+//   const [Developers, setDevelopers] = useState(
+//     [
+//       {
+//         Name: 'Chrisphers Orina',
+//         role: "programmer",
+//         img: {profile}
+//       }
+//     ]
+//   )
+//   return(
+//     <>
+//     <div className="Card">
+//       <div className="Profile_container"><img src={profile} alt="" className='profile'/></div>
+
+//       <h2>{developers[props.index]}</h2>
+//       <p>{roles[props.role]}</p>
+//       <div className="social_media">
+//         <a href={props.link} target="_blank" rel="noopener noreferrer">
+//           <img src={facebook} alt="" />
+          
+//         </a>
+//         <a href={props.link} target="_blank" rel="noopener noreferrer">
+//           <img src={instagram} alt="" />
+          
+//         </a>
+//         <a href={props.link} target="_blank" rel="noopener noreferrer">
+//           <img src={twitter} alt="" />
+          
+//         </a>
+//         <a href={props.link} target="_blank" rel="noopener noreferrer">
+//           <img src={linkedin} alt="" />
+          
+//         </a>
+//       </div>
+//     </div>
+//     </>
+//   )
+// }
+
+
+
+<form action="" method="post" className='Create_post'>
+
+    <div className="form">
+      <div className="short">
+        <label htmlFor="">name</label>
+        <input type="text" />
+        <label htmlFor="">Recipe name</label>
+        <input type="text" />
+      </div>
+      <label htmlFor="Recipe">Recipe</label>
+        <textarea name="text" id="recipe"
+         cols="30" rows="10"> </textarea>
+      <input type="file" />
+      <button onClick={() => handlePost()}>Post</button>
+    </div>
+
+    <div className="file">
+      
+    </div>
+
+  </form>
+
+  1.crash
+2.onions
+3.tomatoes
+4.salt
+
+
+1.crash
+2.onions
+3.tomatoes
+4.salt
+5.height
+6.width
+7.home
+8.school
+9.test
+.10.exams
+
+  1.crash
+2.onions
+3.tomatoes
+4.salt
+1.crash
+2.onions
+3.tomatoes
+4.salt
+5.height
+6.width
+7.home
+8.school
+9.test
+10.exam
+11.home
+again and again
+hello dude thtasrudu
+get off
+
+idfjkfdkvffd
+

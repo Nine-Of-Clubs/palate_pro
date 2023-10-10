@@ -1,0 +1,213 @@
+@import url(./Recipes.css);
+@import url(./Developer.css);
+@import url(./home.css);
+@import url(./community.css);
+@import url(./login.css);
+@import url(./food.css);
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&family=Ubuntu:wght@300;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 1s ease-out;
+}
+
+#root {
+  width: 100%;
+  font-family: sans-serif;
+  height: auto;
+  display: flex;
+  background: linear-gradient(170deg, rgb(4, 17, 59), rgb(2, 2, 49));
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(165, 209, 248, 0.1);
+  gap: 1.5rem;
+}
+header .Logo .logo_image {
+  height: 50px;
+  border-radius: 10px;
+  width: auto;
+}
+header nav {
+  display: inherit;
+  gap: 1rem;
+  width: auto;
+  justify-content: center;
+}
+header nav .Desktop_bar {
+  display: inherit;
+  gap: 1rem;
+}
+header nav .Desktop_bar .Page_navigation-link {
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: rgb(248, 245, 245);
+}
+header nav .Desktop_bar .Page_navigation-link .Dropdown_recipes {
+  transition: all;
+  transition-duration: 10s;
+  display: none;
+  margin-top: -0.6rem;
+  margin-left: 1rem;
+  position: absolute;
+  align-items: start;
+  background: rgb(246, 251, 255);
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 2pc white;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+header nav .Desktop_bar .Page_navigation-link .Dropdown_recipes .Dropdown_item {
+  text-decoration: none;
+  transition: display;
+  transition-duration: 10s;
+  color: #0e86e7;
+}
+header nav .Desktop_bar .Page_navigation-link:hover {
+  transition: all 2s ease-in-out;
+  animation-duration: 3s;
+}
+header nav .Desktop_bar .Page_navigation-link:hover .Dropdown_recipes {
+  animation: displacement 2s ease-in-out;
+  display: flex;
+}
+@keyframes displacement {
+  0% {
+    transform: translate(2px, 4px);
+  }
+  100% {
+    transform: translate(-2px, -4px);
+  }
+}
+header .User {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  height: 2.5rem;
+  padding: 0 1rem;
+  background: lightblue;
+  text-decoration: none;
+  border: 2px solid blue;
+  width: auto;
+}
+header .User .User_status {
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+header .Mobile_bar {
+  cursor: pointer;
+  display: none;
+}
+header .Mobile_menu {
+  position: absolute;
+  padding: 2rem;
+  box-shadow: 0 0 35px rgba(0, 217, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 8%;
+  right: 2.5%;
+  border-radius: 10px;
+  border: 2px solid grey;
+  background: rgb(6, 47, 80);
+}
+header .Mobile_menu .Page_navigation-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: rgb(244, 248, 248);
+}
+header .Mobile_menu .Page_navigation-link .Dropdown_item {
+  text-decoration: none;
+  transition: display;
+  transition-duration: 10s;
+  color: #0e86e7;
+}
+header .Mobile_menu .User_mobile {
+  height: 2.5rem;
+  width: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 132, 255, 0.4);
+  padding: 0 0.5rem;
+  border: 2px solid black;
+}
+header .Mobile_menu .User_mobile .User_status {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+header .Tablet_bar {
+  display: none;
+  cursor: pointer;
+}
+
+main {
+  background: #085080;
+  background: radial-gradient(circle farthest-corner at top left, #0692f0 0%, #030c38 30%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media screen and (max-width: 1025px) {
+  header nav {
+    display: none;
+  }
+  header .Tablet_bar {
+    display: block;
+  }
+  header .Mobile_bar {
+    display: none;
+  }
+}
+.Dropdown_recipes {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.Dropdown_recipes .Dropdown_item {
+  text-decoration: none;
+  color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+  header .User {
+    display: none;
+  }
+  header .Mobile_bar {
+    display: block;
+  }
+  header .Tablet_bar {
+    display: none;
+  }
+}/*# sourceMappingURL=App.css.map */
